@@ -1,0 +1,15 @@
+.container{
+    position:absolute;
+    width: 100%;
+}
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 10px;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+*{
+    scrollbar-color: rgb(81, 122, 119) rgb(8, 241, 230);
+  }

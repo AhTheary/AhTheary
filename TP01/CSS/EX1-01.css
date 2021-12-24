@@ -1,0 +1,17 @@
+.wrapper{   
+    background-color: rgb(236, 102, 185);
+    margin-top: 5%;
+    padding: 5%;
+    height: 100px;
+    width: 200px;
+    
+}
+.flying-box{
+    background-color: rgb(196, 85, 177);
+    text-align: center;
+    color: white;
+    height: 35px;
+    width: 170px;
+    padding: 2%;
+    margin-top: 10%;
+}

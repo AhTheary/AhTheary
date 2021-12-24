@@ -1,0 +1,27 @@
+.wrapper{
+    position: absolute;
+    background-color: rgb(252, 132, 132);
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: clamp(300px, 100%, 800px);
+    height: 100%
+}
+.drop{
+    font-size: 30px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    margin-right: 30px;
+}
+
+@keyframes rotate{
+    
+        from{
+           transform: translateY(0px);
+        }
+        to{
+            transform: translateY(50%);
+
+        } 
+}

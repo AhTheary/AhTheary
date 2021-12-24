@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    background-color: thistle;
+    margin-top: 5%;
+    padding: 1%;
+    position:absolute;
+    grid-template-columns: auto auto auto;
+    
+}
+.box{
+    position: relative;
+    background-color: turquoise;
+    margin: 5px 7px;
+    height: 25px;
+    width: 250px;
+    text-align: center;
+    padding: 7px;
+    
+}

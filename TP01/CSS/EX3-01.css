@@ -1,0 +1,27 @@
+.wrapper{
+    /* position: absolute; */
+    background-color: white;
+    margin: 20%;
+    /* padding: 4%; */
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    .small{
+        background-color: rgb(252, 139, 33);
+        padding: 12px 15px;
+        font-size: 80%;
+    }
+    .big{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    .big{
+        background-color: rgb(39, 252, 19);
+        padding: 15px 35px;
+        font-size: 150%;
+    }
+    .small{
+        display: none;
+    }
+}
